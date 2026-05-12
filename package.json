@@ -1,20 +1,30 @@
 {
   "name": "employee-management-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Employee Management System with JWT Auth for Internship Demo",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "sqlite",
+    "crud"
+  ],
+  "author": "Ankita Samantasinghar",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^11.10.0",
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "express-validator": "^7.3.2",
-    "jsonwebtoken": "^9.0.3",
-    "sqlite3": "^6.0.1"
+    "jsonwebtoken": "^9.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
