@@ -4,8 +4,7 @@
   "description": "Employee Management System with JWT Auth for Internship Demo",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "npm install"
+    "start": "node server.js"
   },
   "keywords": [
     "nodejs",
